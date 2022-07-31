@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+}
+
+form {
+  width: 100%;
+  margin: auto;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  margin-top: 2rem;
+}
+
+input {
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  width: 35%;
+  height: 2rem;
+}
