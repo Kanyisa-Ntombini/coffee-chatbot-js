@@ -13,7 +13,8 @@ function getInput(question) {
   return returnedAnswer;
 }
 
-console.log(getInput('What kind of drink would you like to order?'));
+let coffee = getInput('What kind of drink would you like to order?'); 
+console.log(`You have ordered ${coffee}!`);
 
 /*
 rl.on('close', function () {
